@@ -1,0 +1,21 @@
+.widget{
+    background: $light-blue;
+}
+.widget-header{
+    background: $blue;
+    color: $off-white;
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size;
+}
+
+.widget-header__title{
+    margin:.0rem;
+}
+
+.widget__promptText{
+    color: $off-white;
+    text-align: center;
+    margin: 0;
+    border-bottom: .3rem solid lighten($color: $light-blue, $amount: 10%)
+}
